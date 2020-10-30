@@ -44,7 +44,7 @@ app.delete("/delete", function(req, res){
 app.put("/put/:id", function(req, res){
     var respuesta = req.params.id;
 
-    res.send("Task"+respuesta+ " has been updated");
+    res.send("Task "+respuesta+ " has been updated");
 
 });
 
